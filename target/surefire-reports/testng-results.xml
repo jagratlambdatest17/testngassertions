@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LT Assertion" duration-ms="73665" started-at="2021-02-15T16:57:40Z" finished-at="2021-02-15T16:58:53Z">
+    <groups>
+    </groups>
+    <test name="LT Assertion" duration-ms="73665" started-at="2021-02-15T16:57:40Z" finished-at="2021-02-15T16:58:53Z">
+      <class name="com.lambdatest.AssertionTest">
+        <test-method status="PASS" signature="testAssertion()[pri:0, instance:com.lambdatest.AssertionTest@dc24521]" name="testAssertion" duration-ms="73463" started-at="2021-02-15T16:57:40Z" finished-at="2021-02-15T16:58:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAssertion -->
+      </class> <!-- com.lambdatest.AssertionTest -->
+    </test> <!-- LT Assertion -->
+  </suite> <!-- LT Assertion -->
+</testng-results>
