@@ -15,8 +15,8 @@ public class AssertionTest {
 	@Test
 	public void testAssertion() throws Exception
 	{
-		System.setProperty("webdriver.chrome.driver", "D:\\Softwares\\chromedriver.exe");
-		/*String username = "Enter user name here"; //Enter your user name
+		//System.setProperty("webdriver.chrome.driver", "D:\\Softwares\\chromedriver.exe");
+		String username = "Enter user name here"; //Enter your user name
 	    String accesskey = "Enter access key here"; //Enter your access key
 	    RemoteWebDriver driver = null;
 	    String gridURL = "@hub.lambdatest.com/wd/hub";
@@ -27,8 +27,8 @@ public class AssertionTest {
         capabilities.setCapability("build", "SoftAssertionDemo");
         capabilities.setCapability("name", "SoftAssertionDemo");
         capabilities.setCapability("visual", true);
-		driver=new RemoteWebDriver(new URL("https://"+username+":"+accesskey+gridURL), capabilities);*/
-		WebDriver driver=new ChromeDriver();
+		driver=new RemoteWebDriver(new URL("https://"+username+":"+accesskey+gridURL), capabilities);
+		//WebDriver driver=new ChromeDriver();
 		driver.get("https://www.lambdatest.com/");
 		String expectedtitle="Most Powerful Cross Browser Testing Tool Online | LambdaTest";
 		String actualtitle = driver.getTitle();
